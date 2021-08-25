@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 10px #627295;
+  border-radius: 3px;
+}
+
+
+
+header {
+  width: 100%;
+  height: 200px;
+  border-bottom: solid 10px #9FFD5A;
+}
+
+.header-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-left img {
+  width: 250px;
+  height: 160px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right ul {
+  display: flex;
+}
+
+.header-right li {
+  font-size: 48px;
+  margin-right: 50px;
+}
+
+.main-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-content {
+  width: 40%;
+  height: 29.5%;
+  background-color: #FFFF66;
+  opacity: 0.7;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  border-top-left-radius: 10%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-item1 {
+  /* font-size: 48px; */
+  font-size: 3vw;
+  /* padding-right: 5%; */
+  text-align: center;
+}
+
+.main-item2 {
+  font-size: 24px;
+  /* padding-right: 5%; */
+  /* font-size: 1vw; */
+}
+
+.content {
+  width: 1000px;
+  margin: auto;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.heading-item {
+  height: 122px;
+}
+
+.top-wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.top-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-left {
+  /* text-align: center; */
+  font-size: 38px;
+  width: 50%;
+}
+
+.top-right {
+  width: 55%;
+}
+
+.top-right img {
+  width: 100%;
+}
+
+.consept-wrapper {
+  background-image: url(../img/conseptback.jpg);
+  height: 933px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.contact-wrapper {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.consept-wrapper p {
+  font-size: 38px;
+}
+
+.news {
+  margin-top: 50px;
+  width: 100%;
+  height: 600px;
+}
+
+.news-wrapper {
+  width: 100%;
+}
+
+.news-wrapper ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-img {
+  width: 250px;
+  height: 250px;
+  background: #888;
+}
+
+.news-item {
+  width: 100%;
+  margin-top: 30px;
+  text-align: end;
+}
+
+.news-button {
+  color: #000;
+  background: #9FFD5A;
+  border-bottom: solid 5px #627295;
+}
+
+
+.contact-container {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.contact-img {
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  flex: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.icon-right {
+  margin-left: 15px;
+}
+
+.icon-left {
+  margin-right: 15px;
+}
+
+.icon {
+  width: 40%;
+}
+
+.form-link {
+  background-color: #9FFD5A;
+  opacity: 0.8;
+  width: 490px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.form-link p {
+  font-size: 50px;
+}
+
+.share-wrapper {
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/shareback.jpg);
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.share-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.share-container a {
+  text-align: center;
+  width: 10%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.share-container img {
+  width: 100%;
+}
+
+.bottom-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  margin-top: 50px;
+  width: 300px;
+}
+
+footer {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-top: solid 10px #9FFD5A;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-left ul {
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+/* contact.html */
+form {
+  background-image: url(../img/back3.jpg);
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  width: 100%;
+  height: 800px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background-color:rgba(255,255,255,0.85);
+  width: 80%;
+  height: auto;
+  border: solid 5px #9FFD5A;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.form-item {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.form-item p {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-item input, .form-item textarea {
+  width: 50%;
+}
+
+.send {
+  background: #9FFD5A;
+  width: 260px;
+  height: 150px;
+  border-radius: 130px;
+  font-size: 48px;
+}
+
+.contact-logo {
+  transform: scale(-1, 1);
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.newsAll-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.newsAll-wrapper ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newsAll-wrapper li {
+  margin: 25px;
+}
+
+.arrow {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.news1-wrapper {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.news1-wrapper h1 {
+  border-bottom: solid 3px #9FFD5A;
+}
+
+.news1-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news1-left {
+  font-size: 24px;
+  width: 60%;
+}
+
+.news1-right {
+  width: 40%;
+}
+
+.news1-img {
+  width: 100%;
+  height: 300px;
+  background: #888;
+  margin-bottom: 25px;
+}
+
